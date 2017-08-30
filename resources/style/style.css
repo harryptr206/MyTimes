@@ -27,19 +27,65 @@ nav span {
 
 .maincontent {
   display: flex;
+  border: solid black;
+  justify-content: space-between;
 }
 
 .column1 {
   display: flex;
   width: 630px;
+  flex-direction: column;
+  border: solid black;
 }
 
 .column2 {
   display: flex;
   width: 300px;
+  flex-direction: column;
+  border: solid black;
 }
 
 .column3 {
   display: flex;
   width: 240px;
+  flex-direction: column;
+  border: solid black;
+}
+
+.box {
+  border: solid black;
+  font-family: Georgia;
+}
+
+.boximage1 h1, .boximage2 h1, .boximage3 h1, .boximage4 h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.box p, .boximage1 p, .boximage2 p, .boximage3 p, .boximage4 p {
+  font-size: 17px;
+  color: black;
+}
+
+.box h1 {
+  color: black
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.boximage4 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+.boximage1 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.boximage2 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.boximage3 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }
